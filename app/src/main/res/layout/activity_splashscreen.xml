@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashscreen"
+    android:id="@+id/splashscreen"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#FFFFFF"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memenuhi Tugas Aplikasi Komputasi Bergerak"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="400dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="06/04/2021-10118320-Raden Rizka M Nisa-IF8"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="600dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
